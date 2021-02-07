@@ -2,7 +2,7 @@
 
     "input" : {
         "name" : "Input",
-        "code" : "std::cin &gt&gt &lt;variable&gt ;",
+        "code" : "std::cin &gt&gt &lt;variable&gt;;",
         "examples" : [
             {
                 "description" : "This code stores the user input into the variable myVariable",
@@ -12,15 +12,15 @@
     },
     "output" : {
         "name" : "Output",
-        "code" : "std::cout &lt&lt \"Text to output\" ;",
+        "code" : "std::cout &lt&lt \"Text to output\";",
         "examples" : [
             {
                 "description" : "This code outputs the words 'Hello World'",
-                "code" : "std::cout &lt&lt \"Hello World\" ;"
+                "code" : "std::cout &lt&lt \"Hello World\";"
             },
             {
                 "description" : "This code outputs the sum of 4 and 7",
-                "code" : "std::cout %lt&lt 4 + 7 ;"
+                "code" : "std::cout &lt&lt 4 + 7;"
             }
         ]
     },
@@ -34,7 +34,7 @@
             },
             {
                 "description" : "This code creates a string called text and sets the value to 'Hello World'",
-                "code" : "string text = \"Hello World\""
+                "code" : "char text[] = \"Hello World\";"
             }
         ]
     },
